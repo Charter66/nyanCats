@@ -1,0 +1,64 @@
+html body {
+  padding: 0;
+  margin: 0% 5%;
+  background-image: url(https://www.artefresca.de/images/artikel/thumbs/abington-stripe-rose-streifentapete-im-cottagestil-arte-fresca_0_5775_thumb_1.jpg);
+  width: 80%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: #088db5;
+  padding: 10px;
+}
+nav ul a {
+  color: white;
+  text-decoration: none;
+}
+
+body p {
+  background-image: url(https://images.unsplash.com/photo-1586075010923-2dd4570fb338?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80);
+  padding: 5%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+article img {
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  list-style: none;
+}
+nav ul a:hover {
+  color: #a0c0c9;
+  transition: all 0.3s;
+}
+
+form {
+  padding: 10px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+form button {
+  width: 30%;
+  padding: 5px;
+  background: #088db5;
+  border: none;
+  color: white;
+  border-radius: 2px;
+  transition: 0.2s;
+}
+form button:hover {
+  background: #08b8ee;
+}
+form button:active {
+  box-shadow: inset 3px 2px 15px -5px #252525;
+}
